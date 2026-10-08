@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">自动滑刷</string>
+    <string name="accessibility_label">自动滑刷服务</string>
+    <string name="accessibility_desc">在抖音或快手中按随机间隔自动上划切换短视频，可在悬浮球上点击暂停/继续、长按停止。</string>
+    <string name="target_with_state">%1$s%2$s</string>
+    <string name="state_idle">状态：未启动</string>
+    <string name="open_accessibility_settings">去开启无障碍服务</string>
+    <string name="grant_overlay_permission">授权悬浮窗权限</string>
+    <string name="choose_target">选择目标应用</string>
+    <string name="target_douyin">抖音</string>
+    <string name="target_kuaishou">快手</string>
+    <string name="start_auto_swipe">启动并开始自动滑刷</string>
+    <string name="stop_auto_swipe">停止</string>
+    <string name="usage_hint">使用说明：开启无障碍服务后选择目标应用点击启动。悬浮球点击=暂停/继续，长按=停止。</string>
+</resources>
