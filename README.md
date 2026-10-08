@@ -49,11 +49,15 @@
 
 ### 构建与安装
 
+仓库暂未包含 Gradle Wrapper，推荐使用 Android Studio（Giraffe+ / AGP 8.4）直接打开项目根目录构建运行；也可在本机安装 Gradle 8.x 后执行：
+
 ```bash
-./gradlew assembleDebug     # 构建 Debug 包
-./gradlew installDebug      # 安装到已连接设备
-./gradlew test              # 运行 JVM 单元测试
+gradle assembleDebug        # 构建 Debug 包
+gradle installDebug         # 安装到已连接设备
+gradle test                 # 运行 JVM 单元测试
 ```
+
+依赖仓库已配置阿里云镜像（见 `settings.gradle`），国内网络可直接解析。
 
 ### 使用步骤
 
@@ -126,8 +130,14 @@ IDLE ──start──▶ RUNNING ──pause──▶ PAUSED
 | `TargetAppTest` | 包名正确性、按包名反查、未知包名返回 null |
 
 ```bash
-./gradlew test
+gradle test
 ```
+
+---
+
+## 开源协议
+
+本项目使用 [GPL-3.0](./LICENSE) 协议。
 
 ---
 
